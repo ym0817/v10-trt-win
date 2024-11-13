@@ -4,6 +4,9 @@
 系统环境
 win10 + cuda-11.8 + cudnn-8.9.7  + python-3.10
 
+模型转换    
+trtexec --onnx=best.onnx --saveEngine=best.trt
+
 抱哈目录：
 E:\ThirdParty\opencv480\opencv\build\include     
 E:\ThirdParty\opencv480\opencv\build\include\opencv2   
